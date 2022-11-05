@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@700&display=swap');
+.logo{
+    display: block;
+    margin: auto;
+    width: 70px;
+    height: 70px;
+}
+body {
+  height: 100vh;
+  background-color: rgb(158,160,180);
+  background-image: url(../images/bg.jpg);
+  padding: 0px;
+  margin: 0px;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: gray; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+h1 {
+  margin-top: 12px;
+  font-size: 30px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+.container {
+  max-width: 955px;
+  margin: auto;
+  height: 60vh;
+  
+  overflow-y: auto;
+  margin-bottom: 123px;
+  border-radius: 13px;
+
+  
+  background-image: url(../images/cn.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.send {
+  margin-top: -100px;
+  width: 100%;
+}
+
+.message {
+  background-color: greenyellow;
+  width: 24%;
+  padding: 10px;
+  margin: 17px 12px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+.left {
+  float: left;
+  clear: both;
+}
+
+.right {
+  float: right;
+  clear: both;
+}
+
+#send-container {
+  display: block;
+    margin: auto;
+    text-align: center;
+    max-width: 950px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+#messageInp{
+  width: 92%;
+  border: 2px solid black;
+  border-radius: 6px;
+  height: 34px;
+}
+
+
+  .btn{
+    margin: 5px;
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 6px;
+    height: 34px;
+}
+
